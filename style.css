@@ -1,0 +1,111 @@
+*{
+    font-family: sans-serif;
+}
+.top{
+    background-color: #9fcff8;
+    margin-top: -20px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.navBar{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    padding: 10px;
+    margin-right:158px;
+    margin-left: 350px;
+   
+    
+    
+}
+.cities h2{
+    margin: 0px 40px;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.allContent{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-bottom: 10px;
+    border-bottom: 3px black solid;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+#tempSelect{
+    margin-left: 15px;
+    height: 25px;
+    width: 60px;
+}
+.mainContent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 340px;
+    
+}
+.weatherBox{
+    background-color: #EEEEEE;
+    text-align: center;
+    width: 245px;
+}
+.wImg{
+    border-radius: 50%;
+    height: 150px;
+}
+.temps{
+    display: flex;
+    justify-content: space-around;
+}
+.tempHigh{
+    color: #cf2a27;
+}
+.tempLow{
+    color: #2b78e4;
+}
+.cookieBox{
+    display: flex;
+    border: 4px black solid;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-right: 20.25%;
+    
+}
+#cookie{
+    height: 75px;
+    margin:20px
+}
+.cookieInfo{
+    width: 80%;
+    margin-right: 70px;
+    margin-top: -25px;
+}
+.cookieInfo p{
+    margin-top: -15px;
+}
+.acceptBtn{
+    background-color: #9fcff8;
+    margin-right: 35px;
+    border: 2px black solid;
+    box-shadow: .2em .2em black;
+    height: 30px;
+    width: 100px;
+}
+#readMore{
+    color: #2b78e4;
+    text-decoration: underline;
+}

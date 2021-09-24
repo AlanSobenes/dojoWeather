@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="navBar">
+        <div>
+            <h1>DojoWeather</h1>
+        </div>
+        <div class="navBar  cities">
+            <h2 onclick="alert('You Have Chosen to View the Weather in Burbank')">Burbank</h2>
+            <h2 onclick="alert('You Have Chosen to View the Weather in Chicago')">Chicago</h2>
+            <h2 onclick="alert('You Have Chosen to View the Weather in Dallas')">Dallas</h2>
+        </div>
+    </div>
+</div>
+    <div class="header info">
+        <div>
+            <h2>San Jose</h2>
+        </div>
+        <div class="info">
+            <p>show temperature in</p>
+            <select name="temp" id="tempSelect" onchange="convertTemp()">
+                <option value="celcius">&deg;C</option>
+                <option value="farenhet">&deg;F</option>
+            </select>
+        </div>
+    </div>
+    <div class="allContent">
+        <div class="mainContent">
+            <div class="weatherBox">
+                <h3>Today</h3>
+                <img src="assets/some_rain.png" alt="rain clouds" class="wImg">
+                <h4>some rain</h4>
+                <div class="temps">
+                    <h3 class="tempHigh" id="temp">24</h3>
+                    <h3 class="tempLow" id="temp">18</h3>
+                </div>
+            </div>
+            <div class="weatherBox">
+                <h3>Tomorrow</h3>
+                <img src="assets/some_sun.png" alt="sunny" class="wImg">
+                <h4>some sun</h4>
+                <div class="temps">
+                    <h3 class="tempHigh">27&deg;</h3>
+                    <h3 class="tempLow">19&deg;</h3>
+                </div>
+            </div>
+            <div class="weatherBox">
+                <h3>Friday</h3>
+                <img src="assets/some_clouds.png" alt="clouds" class="wImg">
+                <h4>some clouds</h4>
+                <div class="temps">
+                    <h3 class="tempHigh">21&deg;</h3>
+                    <h3 class="tempLow">16&deg;</h3>
+                </div>
+            </div>
+            <div class="weatherBox">
+                <h3>Saturday</h3>
+                <img src="assets/some_sun.png" alt="sunny" class="wImg">
+                <h4>some sun</h4>
+                <div class="temps">
+                    <h3 class="tempHigh">26&deg;</h3>
+                    <h3 class="tempLow">21&deg;</h3>
+                </div>
+            </div>
+        </div>
+        <div class="cookieBox" id="cookieAlert">
+            <img src="assets/cookie.png" alt="cookies" id="cookie">
+            <div class="cookieInfo">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads to provide social media
+                    features and to analyse our traffic. <span id="readMore">Read more...<span> </p>
+            </div>
+            <button class="acceptBtn" onclick="removeCookieAlert('cookieAlert')">I Accept</button>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
