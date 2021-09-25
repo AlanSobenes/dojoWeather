@@ -28,7 +28,7 @@
         </div>
         <div class="info">
             <p>show temperature in</p>
-            <select name="temp" id="tempSelect" onchange="convertTemp()">
+            <select name="temp" id="tempSelect" onchange="convertTemp(this)">
                 <option value="celcius">&deg;C</option>
                 <option value="farenhet">&deg;F</option>
             </select>
@@ -41,8 +41,8 @@
                 <img src="assets/some_rain.png" alt="rain clouds" class="wImg">
                 <h4>some rain</h4>
                 <div class="temps">
-                    <h3 class="tempHigh" id="temp">24</h3>
-                    <h3 class="tempLow" id="temp">18</h3>
+                    <h3 class="tempHigh temp" >24</h3>
+                    <h3 class="tempLow temp" >18</h3>
                 </div>
             </div>
             <div class="weatherBox">
@@ -50,8 +50,8 @@
                 <img src="assets/some_sun.png" alt="sunny" class="wImg">
                 <h4>some sun</h4>
                 <div class="temps">
-                    <h3 class="tempHigh">27&deg;</h3>
-                    <h3 class="tempLow">19&deg;</h3>
+                    <h3 class="tempHigh temp">27</h3>
+                    <h3 class="tempLow temp">19</h3>
                 </div>
             </div>
             <div class="weatherBox">
@@ -59,8 +59,8 @@
                 <img src="assets/some_clouds.png" alt="clouds" class="wImg">
                 <h4>some clouds</h4>
                 <div class="temps">
-                    <h3 class="tempHigh">21&deg;</h3>
-                    <h3 class="tempLow">16&deg;</h3>
+                    <h3 class="tempHigh temp">21</h3>
+                    <h3 class="tempLow temp">16</h3>
                 </div>
             </div>
             <div class="weatherBox">
@@ -68,8 +68,8 @@
                 <img src="assets/some_sun.png" alt="sunny" class="wImg">
                 <h4>some sun</h4>
                 <div class="temps">
-                    <h3 class="tempHigh">26&deg;</h3>
-                    <h3 class="tempLow">21&deg;</h3>
+                    <h3 class="tempHigh temp">26</h3>
+                    <h3 class="tempLow temp">21</h3>
                 </div>
             </div>
         </div>
